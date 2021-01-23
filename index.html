@@ -11,14 +11,14 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
   </main>
   <form id="survey-form">
-    <label for="name">Name:</label><br>
+    <label id="name-label" for="name">Name:</label><br>
     <input type="text" id="name" name="name" placeholder="Enter your Name"><br>
 
-    <label for="email">Email</label><br>
+    <label id="email-label" for="email">Email</label><br>
     <input type="email" placeholder="test@microverse.com" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /><br>
 
-    <label for="number"> Age:</label><br>
-    <input type="number" id="number" ><br>
+    <label id="number-label" for="number"> Age:</label><br>
+    <input type="number" id="number" min="18" max="123"><br>
 
 
   </form>
